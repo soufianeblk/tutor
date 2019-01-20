@@ -1,6 +1,4 @@
-from cms.envs.aws import *
-
-INSTALLED_APPS.remove('openedx.core.djangoapps.datadog.apps.DatadogConfig')
+from cms.envs.production import *
 
 update_module_store_settings(MODULESTORE, doc_store_settings=DOC_STORE_CONFIG)
 
