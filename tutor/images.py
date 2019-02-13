@@ -10,7 +10,7 @@ def images():
     pass
 
 option_namespace = click.option("-n", "--namespace", default="regis", show_default=True)
-option_version = click.option("-V", "--version", default="hawthorn", show_default=True)
+option_version = click.option("-V", "--version", default="ironwood", show_default=True)
 all_images = ["openedx", "forum", "notes", "xqueue", "android"]
 argument_image = click.argument(
     "image", type=click.Choice(["all"] + all_images),

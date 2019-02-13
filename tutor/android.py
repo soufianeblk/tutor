@@ -7,7 +7,7 @@ from . import opts
 from . import utils
 
 
-DOCKER_IMAGE = "regis/openedx-android:hawthorn"
+DOCKER_IMAGE = "regis/openedx-android:ironwood"
 
 @click.group(
     help="Build an Android app for your Open edX platform [BETA FEATURE]"
